@@ -1,0 +1,27 @@
+.container {
+ max-width: 1000px;
+ margin: 0 auto;
+ padding: 20px;
+}
+
+#map {
+ height: 735px;
+ background-color: #ccc;
+}
+
+#map::before {
+ content: 'LOADING';
+ font-size: 3em;
+ text-align: center;
+ width: 100%;
+ position: absolute;
+ margin-top: 3em;
+}
+
+.leaflet-popup-content-wrapper {
+ width: 100%;
+}
+
+body {
+ background-color: #3bb6f3;
+}
